@@ -1,3 +1,10 @@
+import argparse
+import cv2 as cv
+import io
+import os
+from collections import namedtuple
+from PIL import Image, ImageDraw, ImageFont
+
 def prepare_image_local(image_path):
     try:
         # Loads the image into memory

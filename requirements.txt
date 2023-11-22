@@ -1,0 +1,5 @@
+google-cloud-vision
+pillow
+io
+collections
+cv2

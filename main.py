@@ -1,12 +1,7 @@
 from google.oauth2 import service_account
 from google.cloud import vision
 from google.cloud.vision_v1 import types
-import argparse
-import cv2 as cv
-import io
-import os
-from collections import namedtuple
-from PIL import Image, ImageDraw, ImageFont
+i
 
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "document-classifier-404406-bc4b6ee5348e.json"
