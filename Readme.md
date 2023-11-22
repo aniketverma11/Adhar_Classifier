@@ -43,7 +43,7 @@ print("Extracted Texts:", extracted_texts)
 #### 2. Classify Aadhar Data
 
 ```python
-from your_module import classify_aadhar
+from main import classify_aadhar
 
 # Classify the extracted text
 result = classify_aadhar(extracted_texts)
