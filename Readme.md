@@ -22,6 +22,7 @@ This Python program verifies the authenticity of Aadhar cards using the Google V
 
 ```bash
 export GOOGLE_APPLICATION_CREDENTIALS="path/to/your/service/account/key.json"
+```
 
 ### Usage
 
@@ -37,6 +38,7 @@ image_paths = ["path/to/image1.jpg", "http://example.com/image2.jpg", "path/to/i
 extracted_texts = extract_text(image_paths)
 
 print("Extracted Texts:", extracted_texts)
+```
 
 #### 2. Classify Aadhar Data
 
@@ -47,6 +49,7 @@ from your_module import classify_aadhar
 result = classify_aadhar(extracted_texts)
 
 print("Classification:", result)
+```
 
 #### Note:
 
